@@ -11,3 +11,10 @@ print("The difference of", a, "and", b, "is:", diff)
 # program to print the product of two numbers
 product = a * b
 print("The product of", a, "and", b, "is:", product)
+
+#program to print the division of two numbers
+if b != 0:
+    division = a / b
+    print("The division of", a, "and", b, "is:", division)
+else:
+    print("Division by zero is not allowed.")
